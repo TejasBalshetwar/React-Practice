@@ -5,9 +5,12 @@
 // creating nested Element
 // div parent -> div.child -> heading
 
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 const firstH1 = React.createElement('h1',{},"I am an H1 tag");
-const firstH2 = React.createElement('h2',{},"I am an H2 tag");
+const firstH2 = React.createElement('h2',{},"I am an H2 new tag");
+
 const child1 = React.createElement('div',{'id':'child1'},[firstH1,firstH2])
 
 const secH1 = React.createElement('h1',{},"I am an H1 tag");

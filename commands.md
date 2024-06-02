@@ -1,0 +1,8 @@
+- npm init
+- npm install parcel
+- npm install react
+- npm install react-dom
+- npx parcel index.html
+- npx parcel index.html --https
+- npx parcel build index.html
+- npx parcel build index.html --no-minify 
